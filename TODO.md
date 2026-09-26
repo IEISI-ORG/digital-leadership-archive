@@ -7,7 +7,7 @@ Priority: **P0** must be done now · **P1** should be done in the current pass �
 | CR | Title | Priority | Status | Blocked on |
 |---|---|---|---|---|
 | CR-0001 | Repository skeleton, governing documents, first commit | P0 | done | — |
-| CR-0002 | Intake of Valentine (2016): source record, links, draft summary | P0 | approved | — |
+| CR-0002 | Intake of Valentine (2016): source record, links, draft summary | P0 | done | Curator review of summary |
 | CR-0003 | Author profile and author set for Dr Elizabeth Valentine | P0 | open | Curator approval of the author |
 | CR-0004 | Define and scope the eight approved dimensions | P1 | open | — |
 | CR-0005 | Tier entries for Empirical, Practitioner, Myth in `taxonomy/tiers/` | P1 | open | — |
@@ -21,3 +21,5 @@ Priority: **P0** must be done now · **P1** should be done in the current pass �
 ## Open questions for the curator
 
 - Confirm the wording of the curator interest disclosure in [README.md](README.md).
+- Review the draft summary of Valentine (2016), including its reading notes, and confirm or change its `independence: interested` flag.
+- Decide on candidates C-0001 to C-0010 in [registers/candidates.md](registers/candidates.md).

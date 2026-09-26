@@ -6,4 +6,4 @@ Only works the curator has read and approved appear here. Full texts and PDFs ar
 
 | Work | Year | Summary status |
 |---|---|---|
-| *Valentine (2016), Enterprise technology governance: approved (D-0004); intake in CR-0002* | 2016 | pending |
+| [Valentine (2016), Enterprise technology governance](valentine-2016-etg-thesis/) | 2016 | draft |
