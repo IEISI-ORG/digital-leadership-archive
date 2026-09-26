@@ -83,7 +83,7 @@ Defined in [EPISTEMOLOGY.md](../../EPISTEMOLOGY.md): provenance kinds, independe
 ## 7. Workflow
 
 1. **Intake.** Works arrive handed in by the curator (already approved) or proposed as candidates (by the curator or the AI).
-2. **Approval.** The curator reads and decides; the decision is logged.
+2. **Approval.** The curator reads and decides. Approval is given by applying the Paperpile label `DLA-approved`; the export on branch `paperpile-sync` is the approval inbox and the source of bibliographic data (CR-0010, [bibliography/](../../bibliography/)). The decision is logged.
 3. **Summary.** The AI drafts a descriptive summary with page references; the curator reviews it.
 4. **Links and tags.** Taxonomy tags and typed links are drafted with the summary and reviewed with it.
 5. **Author set summary.** Regenerated only from reviewed work summaries.

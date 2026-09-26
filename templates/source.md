@@ -1,5 +1,7 @@
 ---
 id: <first-author-surname>-<year>-<short-slug>
+bibtex_key: ""         # key in the Paperpile export, e.g. Valentine2016-qx
+paperpile_commit: ""   # paperpile-sync commit the record was taken from
 title: ""
 authors: []            # author IDs, e.g. [valentine-elizabeth]
 author_set: ""         # author-set ID
@@ -23,6 +25,8 @@ taxonomy:
   competency_domain: []
   technology_domain: []
   evidence_type: []
+overrides: []          # - {field: thesis_type, value: "", source: "<url>"}  facts Paperpile cannot express
+withdrawn: false
 links: []              # - {relation: extends, target: <work-id or lens-id>, context: "", page: ""}
 ---
 

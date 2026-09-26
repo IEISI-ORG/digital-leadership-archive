@@ -34,6 +34,7 @@ Dr Valentine leads Digital Directors ([digitaldirectors.com.au](https://digitald
 | [`lenses/`](lenses/) | Frameworks treated as objects of study: `domain/`, `systems/`, `discourse/` |
 | [`synthesis/`](synthesis/) | Analyses that apply lenses across groups of works |
 | [`registers/`](registers/) | Candidates proposed for approval, and rejected candidates with reasons |
+| [`bibliography/`](bibliography/) | Rules for the Paperpile approval inbox and the last processed sync |
 | [`changes/`](changes/) | One folder per change request: plan, then implementation record |
 | [`templates/`](templates/) | Front matter templates for every object type |
 
@@ -42,7 +43,7 @@ Dr Valentine leads Digital Directors ([digitaldirectors.com.au](https://digitald
 Nothing is added unless the curator approves it.
 
 1. A work is **handed in** by the curator (already read and approved), or **proposed** as a candidate in [registers/candidates.md](registers/candidates.md).
-2. The curator **reads and assesses** the work, then approves or rejects it. Every decision is logged in [DECISIONS.md](DECISIONS.md).
+2. The curator **reads and assesses** the work, then approves it by applying the label `DLA-approved` in their Paperpile library. Paperpile exports the approved set to the [`paperpile-sync`](https://github.com/IEISI-ORG/digital-leadership-archive/tree/paperpile-sync) branch, which supplies the bibliographic data. Every decision, including rejections and withdrawals, is logged in [DECISIONS.md](DECISIONS.md). See [bibliography/](bibliography/) for the rules.
 3. An approved work gets a **summary**, drafted with AI assistance and marked `draft` until the curator reviews it.
 4. **Links to other works** (`extends`, `validates`, `applies`, `critiques`, …) are recorded with each work, so chains of evidence build up over time.
 

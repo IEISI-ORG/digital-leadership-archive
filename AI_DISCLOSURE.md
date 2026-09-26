@@ -27,7 +27,7 @@ The AI is a tool working under instruction. It is not an author, reviewer or cur
 
 1. **No approvals.** The AI cannot approve, reject or promote any work, author, lens, dimension or tier. Only the curator can, and each decision is logged in [DECISIONS.md](DECISIONS.md).
 2. **No additions without approval.** Nothing enters `sources/`, `authors/`, `author-sets/`, `lenses/` or `taxonomy/` unless the curator has approved it. AI suggestions go to the candidate register only.
-3. **No citations from memory.** Every bibliographic detail (title, authors, year, venue, DOI, link) is checked against a retrievable record before it is written. A detail that cannot be checked is marked `unverified`.
+3. **No citations from memory.** Bibliographic details of approved works come from the curator's Paperpile export (see [bibliography/](bibliography/)). Any other bibliographic detail (title, authors, year, venue, DOI, link) is checked against a retrievable record before it is written. A detail that cannot be checked is marked `unverified`.
 4. **No claims about people without a source.** Author profiles contain public professional information only, and each claim links to where it was found.
 5. **No tier assignments.** The AI may draft the evidence for a standing tier. It never assigns one. A lens stays `unclassified` until the curator decides the evidence is sufficient.
 6. **Every generated statement is marked.** Files record `provenance: generated` and `review_status: draft | reviewed` in their front matter. The AI never sets `review_status: reviewed`. The curator does.
