@@ -1,0 +1,10 @@
+# Full texts are never committed: link to DOI or open-access copies instead.
+*.pdf
+*.epub
+*.docx
+
+# Local and scratch files
+temp/
+.DS_Store
+*.swp
+.obsidian/
