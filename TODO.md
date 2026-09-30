@@ -18,6 +18,7 @@ Priority: **P0** must be done now · **P1** should be done in the current pass �
 | CR-0010 | Paperpile integration: approval label, sync inbox, intake rules | P0 | done | — |
 | CR-0011 | Automated inbox check: flag new, removed and changed keys and removed fields | P2 | open | — |
 | CR-0012 | Paperpile MCP integration: read and write the library through Paperpile's MCP server (replaces browser automation and BibTeX export as transport; rules in `bibliography/README.md` unchanged) | P1 | open | Paperpile release. Roadmap status "Started", no date, checked 2026-09-26: https://paperpile.com/roadmap/ |
+| CR-0013 | Intake of the 2026-09-30 Paperpile backlog: seven approved works ([plan](changes/CR-0013-paperpile-backlog-intake/plan.md)) | P0 | planned | Curator approval of plan; REP 798 author correction in Paperpile |
 
 ## Open questions for the curator
 
